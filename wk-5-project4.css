@@ -1,0 +1,35 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.pricing-table {
+    display:grid;
+    grid-template-columns: (3, 1fr);
+    gap:20px;
+    margin: 10px;
+}
+
+.pricing-card {
+    background-color: #fff;
+    padding:20px;
+    border:1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color:white;
+    padding:10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;    /* Stack the links vertically on small screens */
+    }
+}
